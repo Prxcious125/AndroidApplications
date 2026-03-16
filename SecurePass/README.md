@@ -1,51 +1,68 @@
 
-SecurePass – Password Strength Checker 🔐
+ SecurePass – Password Strength Checker 🔐
+
 Project Overview
-SecurePass is a password strength checking application designed to help users create stronger and more secure passwords. The system evaluates passwords entered by users and determines their strength based on several security rules such as password length, the use of uppercase and lowercase letters, numbers, and special characters.
 
-The goal of the application is to promote better cybersecurity practices by helping users understand whether their passwords are strong enough to protect their accounts and personal information.
+SecurePass is a password strength checking application designed to help users create stronger and more secure passwords. The application helps users evaluate the strength of their passwords to ensure they are secure and difficult to guess. Strong passwords are essential for protecting personal data and online accounts from unauthorized access.
 
-This project was developed using Laravel for the backend and Java for the application logic and interface. Laravel is used to manage server-side operations, handle requests, and organize the application structure, while Java is used to implement the core password validation logic and user interaction.
+The application analyzes the password entered by the user and evaluates it based on several security criteria such as password length, the presence of uppercase and lowercase letters, numbers, and special characters. Based on these factors, the system classifies the password strength as **Weak, Medium, or Strong**.
 
-SecurePass analyzes the password entered by the user and classifies it into different strength levels such as Weak, Medium, or Strong. This allows users to quickly determine whether they should improve their password by making it longer or adding different character types.
+SecurePass was developed as an academic project to demonstrate fundamental software development concepts including user input handling, conditional logic, and secure password validation.
 
-The application demonstrates basic concepts of software development such as input validation, conditional logic, and secure programming practices. It was developed as an academic project to showcase skills in backend development with Laravel and application development with Java.
 
-Features ✨
-Password strength checker
 
-Real-time password evaluation
+ Features ✨
 
-Simple and user-friendly interface
+* Password strength analysis
+* Real-time feedback to the user
+* Simple and user-friendly interface
+* Checks for:
 
-Checks password security rules:
+  * Password length
+  * Uppercase letters
+  * Lowercase letters
+  * Numbers
+  * Special characters
+* Displays password strength result (**Weak / Medium / Strong**)
 
-Minimum password length
-Uppercase and lowercase letters
-Numbers
-Special characters
-Displays password strength result (Weak / Medium / Strong)
 
-Technologies Used 🛠
-Java
-Laravel
-Web technologies (HTML/CSS)
-Backend validation logic
-How It Works ⚙️
-The user enters a password.
-The application analyzes the password based on security rules.
-The system calculates the password strength.
-The result is displayed to the user as Weak, Medium, or Strong.
-Learning Objectives 📚
+
+ Technologies Used 🛠
+
+* **Java**
+* **Laravel**
+* **HTML / CSS**
+* **Backend validation logic**
+
+
+
+ How the App Works ⚙️
+
+1. The user enters a password into the input field.
+2. The application analyzes the password based on predefined security rules.
+3. The system calculates the strength of the password.
+4. The result is displayed to the user indicating whether the password is **Weak**, **Medium**, or **Strong**.
+
+
+
+ Learning Objectives 📚
+
 This project demonstrates:
 
-Backend development using Laravel
-Java programming concepts
-Input validation techniques
-Basic cybersecurity practices
-Software development for security tools
-Author 👩‍💻
-Developed as part of an academic project.
+* Backend development using Laravel
+* Java programming fundamentals
+* User input validation
+* Basic password security evaluation
+* Software development for security tools
 
-License 📄
+
+
+ Author 👩‍💻
+
+Developed as part of a software development coursework project.
+
+
+
+ License 📄
+
 This project is for educational purposes.
